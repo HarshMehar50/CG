@@ -46,6 +46,7 @@ void main() {
         x = x + xInc;
         y = y + yInc;
         putpixel(round(x), round(y), WHITE);
+        // putpixel((int)(x + 0.5), (int)(y + 0.5), WHITE);
     }
 
     getch();
